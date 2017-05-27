@@ -1,0 +1,13 @@
+{
+	"name" : "my plugin",
+	"description" : "just a new plugin which is awesome",
+	"version" : "0.1" ,
+	"manifest_version" : 2 ,
+	"background_page" :"background.html",
+	"browser_action" :
+	{
+		"popup" : "popup.html" ,
+		"default_icon" : "icon.gif"
+	},
+	"permission" : ["notifications"]
+}
